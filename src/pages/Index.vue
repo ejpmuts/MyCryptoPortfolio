@@ -7,16 +7,18 @@
       </b-col>
     </b-row>
     <b-row>
-      <b-nav>
-
-      </b-nav>
+      <b-col>
+        <b-nav class="float-right">
+          <b-button v-b-modal.addTransactionModal size="sm" variant="info"><i class="fa fa-plus"></i> Add transaction</b-button>
+        </b-nav>
+      </b-col>
     </b-row>
     <b-row>
       <b-col lg>
         <b-card no-body>
           <b-tabs ref="tabs" card>
             <b-tab title="Portfolio" active>
-              <b-table striped hover :items="items"></b-table>
+              <b-table hover :items="items"></b-table>
             </b-tab>
             <b-tab title="Charts">
             </b-tab>
@@ -24,6 +26,8 @@
         </b-card>
       </b-col>
     </b-row>
+
+    <c-add-transaction-modal></c-add-transaction-modal>
   </b-container>
 
 </template>
@@ -36,6 +40,8 @@ const items = [
   {isActive: true, age: 38, first_name: 'Jami', last_name: 'Carney'}
 ]
 
+import AddTransactionModal from '../components/AddTransactionModal'
+
 export default {
 
   name: 'index',
@@ -43,6 +49,9 @@ export default {
     return {
       items: items
     }
+  },
+  components: {
+    'c-add-transaction-modal': AddTransactionModal
   }
 
 }
