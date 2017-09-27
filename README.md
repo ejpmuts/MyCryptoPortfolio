@@ -1,6 +1,18 @@
-# mycryptoportfolio
+# My Crypto Portfolio
 
-> A Vue.js project
+![MyCryptoPortfolio](src/assets/logo64.png)
+
+**My Crypto Portfolio** keeps track of your holdings in crypto currencies.
+It will show information such as profit/loss, total portfolio value, charts and more.
+Multiple exchanges will be supported and auto import tools for your orders will be implemented in the near future.
+
+## Features
+TODO
+
+## Future development
+
+## Installation
+TODO
 
 ## Build Setup
 
@@ -18,4 +30,8 @@ npm run build
 npm run build --report
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Donate
+TODO
+
+## License
+TODO
