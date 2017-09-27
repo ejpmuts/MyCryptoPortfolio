@@ -1,5 +1,4 @@
 # My Crypto Portfolio
-
 ![MyCryptoPortfolio](src/assets/logo64.png)
 
 **My Crypto Portfolio** keeps track of your holdings in crypto currencies.
